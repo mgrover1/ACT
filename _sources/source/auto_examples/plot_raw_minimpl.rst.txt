@@ -26,7 +26,7 @@ and plot out the PPI by converting it to PyART
 
 Author: Adam Theisen
 
-.. GENERATED FROM PYTHON SOURCE LINES 10-34
+.. GENERATED FROM PYTHON SOURCE LINES 10-37
 
 
 
@@ -54,7 +54,7 @@ Author: Adam Theisen
     ##     JJ Helmus and SM Collis, JORS 2016, doi: 10.5334/jors.119
 
     <frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
-    /usr/share/miniconda3/envs/act-docs/lib/python3.10/site-packages/pyart/graph/radardisplay.py:104: UserWarning: RadarDisplay does not correct for moving platforms
+    /usr/share/miniconda3/envs/act-docs/lib/python3.10/site-packages/pyart/graph/radardisplay.py:102: UserWarning: RadarDisplay does not correct for moving platforms
       warnings.warn('RadarDisplay does not correct for moving platforms')
 
 
@@ -68,11 +68,13 @@ Author: Adam Theisen
 
 
 
-    import act
     from matplotlib import pyplot as plt
+
+    import act
 
     try:
         import pyart
+
         PYART_AVAILABLE = True
     except ImportError:
         PYART_AVAILABLE = False
@@ -82,19 +84,20 @@ Author: Adam Theisen
     obj = act.io.mpl.read_sigma_mplv5(files)
 
     # Create a PyART Radar Object
-    radar = act.utils.create_pyart_obj(obj, azimuth='azimuth_angle', elevation='elevation_angle',
-                                       range_var='range')
+    radar = act.utils.create_pyart_obj(
+        obj, azimuth='azimuth_angle', elevation='elevation_angle', range_var='range'
+    )
 
     # Creat Plot Display
     if PYART_AVAILABLE:
         display = pyart.graph.RadarDisplay(radar)
-        display.plot('nrb_copol', sweep=0, title_flag=False, vmin=0, vmax=1., cmap='jet')
+        display.plot('nrb_copol', sweep=0, title_flag=False, vmin=0, vmax=1.0, cmap='jet')
         plt.show()
 
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.599 seconds)
+   **Total running time of the script:** ( 0 minutes  0.546 seconds)
 
 
 .. _sphx_glr_download_source_auto_examples_plot_raw_minimpl.py:
