@@ -5,42 +5,42 @@
 
 Computation times
 =================
-**01:08.075** total execution time for **source_auto_examples** files:
+**01:13.754** total execution time for **source_auto_examples** files:
 
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_asos_temp.py` (``plot_asos_temp.py``)                               | 00:55.590 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_asos_temp.py` (``plot_asos_temp.py``)                               | 00:41.602 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_wind_rose.py` (``plot_wind_rose.py``)                               | 00:02.922 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_multiple_dataset.py` (``plot_multiple_dataset.py``)                 | 00:07.202 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_daytime_averages.py` (``plot_daytime_averages.py``)                 | 00:02.369 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_weighted_average.py` (``plot_weighted_average.py``)                 | 00:06.949 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_rh_timeseries.py` (``plot_rh_timeseries.py``)                       | 00:02.156 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_ceil.py` (``plot_ceil.py``)                                         | 00:03.362 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_contour.py` (``plot_contour.py``)                                   | 00:01.500 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_wind_rose.py` (``plot_wind_rose.py``)                               | 00:02.647 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_skewt.py` (``plot_skewt.py``)                                       | 00:01.351 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_daytime_averages.py` (``plot_daytime_averages.py``)                 | 00:02.299 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_sonde.py` (``plot_sonde.py``)                                       | 00:00.998 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_xsection.py` (``plot_xsection.py``)                                 | 00:02.264 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_raw_minimpl.py` (``plot_raw_minimpl.py``)                           | 00:00.621 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_rh_timeseries.py` (``plot_rh_timeseries.py``)                       | 00:02.078 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_qc.py` (``plot_qc.py``)                                             | 00:00.568 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_contour.py` (``plot_contour.py``)                                   | 00:01.410 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_ceil_example.py` (``ceil_example.py``)                                   | 00:00.000 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_skewt.py` (``plot_skewt.py``)                                       | 00:01.312 | 0.0 MB |
++--------------------------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_source_auto_examples_plot_sonde.py` (``plot_sonde.py``)                                       | 00:00.994 | 0.0 MB |
++--------------------------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_source_auto_examples_plot_qc.py` (``plot_qc.py``)                                             | 00:00.747 | 0.0 MB |
++--------------------------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_source_auto_examples_plot_raw_minimpl.py` (``plot_raw_minimpl.py``)                           | 00:00.590 | 0.0 MB |
++--------------------------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_source_auto_examples_plot_force_line_qc.py` (``plot_force_line_qc.py``)                       | 00:00.298 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
 | :ref:`sphx_glr_source_auto_examples_change_units.py` (``change_units.py``)                                   | 00:00.000 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
 | :ref:`sphx_glr_source_auto_examples_correct_ship_wind_data.py` (``correct_ship_wind_data.py``)               | 00:00.000 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_force_line_plot_qc.py` (``force_line_plot_qc.py``)                       | 00:00.000 | 0.0 MB |
-+--------------------------------------------------------------------------------------------------------------+-----------+--------+
 | :ref:`sphx_glr_source_auto_examples_get_stability_indices_example.py` (``get_stability_indices_example.py``) | 00:00.000 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_multidata_example.py` (``multidata_example.py``)                         | 00:00.000 | 0.0 MB |
-+--------------------------------------------------------------------------------------------------------------+-----------+--------+
 | :ref:`sphx_glr_source_auto_examples_qc_example.py` (``qc_example.py``)                                       | 00:00.000 | 0.0 MB |
-+--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_weighted_average_example.py` (``weighted_average_example.py``)           | 00:00.000 | 0.0 MB |
-+--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_xsection_example.py` (``xsection_example.py``)                           | 00:00.000 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
