@@ -5,36 +5,36 @@
 
 Computation times
 =================
-**01:25.148** total execution time for **source_auto_examples** files:
+**01:41.326** total execution time for **source_auto_examples** files:
 
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_asos_temp.py` (``plot_asos_temp.py``)                               | 00:55.340 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_asos_temp.py` (``plot_asos_temp.py``)                               | 01:16.512 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_multiple_dataset.py` (``plot_multiple_dataset.py``)                 | 00:07.664 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_multiple_dataset.py` (``plot_multiple_dataset.py``)                 | 00:06.525 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_weighted_average.py` (``plot_weighted_average.py``)                 | 00:05.377 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_weighted_average.py` (``plot_weighted_average.py``)                 | 00:04.476 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_ceil.py` (``plot_ceil.py``)                                         | 00:03.750 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_ceil.py` (``plot_ceil.py``)                                         | 00:03.119 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_wind_rose.py` (``plot_wind_rose.py``)                               | 00:02.488 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_xsection.py` (``plot_xsection.py``)                                 | 00:01.973 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_rh_timeseries.py` (``plot_rh_timeseries.py``)                       | 00:02.121 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_wind_rose.py` (``plot_wind_rose.py``)                               | 00:01.869 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_daytime_averages.py` (``plot_daytime_averages.py``)                 | 00:02.016 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_rh_timeseries.py` (``plot_rh_timeseries.py``)                       | 00:01.576 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_xsection.py` (``plot_xsection.py``)                                 | 00:01.493 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_daytime_averages.py` (``plot_daytime_averages.py``)                 | 00:01.484 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_contour.py` (``plot_contour.py``)                                   | 00:01.391 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_skewt.py` (``plot_skewt.py``)                                       | 00:01.048 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_skewt.py` (``plot_skewt.py``)                                       | 00:01.192 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_contour.py` (``plot_contour.py``)                                   | 00:01.001 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_sonde.py` (``plot_sonde.py``)                                       | 00:00.896 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_sonde.py` (``plot_sonde.py``)                                       | 00:00.682 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_raw_minimpl.py` (``plot_raw_minimpl.py``)                           | 00:00.576 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_raw_minimpl.py` (``plot_raw_minimpl.py``)                           | 00:00.453 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_qc.py` (``plot_qc.py``)                                             | 00:00.563 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_qc.py` (``plot_qc.py``)                                             | 00:00.384 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_plot_force_line_qc.py` (``plot_force_line_qc.py``)                       | 00:00.280 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_plot_force_line_qc.py` (``plot_force_line_qc.py``)                       | 00:00.223 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
 | :ref:`sphx_glr_source_auto_examples_change_units.py` (``change_units.py``)                                   | 00:00.000 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------------+-----------+--------+
