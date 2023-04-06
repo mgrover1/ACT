@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>act.plotting.GeographicPlotDisplay.geoplot &#8212; Atmospheric data Community Toolkit 0.post1+g368a926 documentation</title>
+    <title>act.plotting.GeographicPlotDisplay.geoplot &#8212; Atmospheric data Community Toolkit 0.post1+gddbec03 documentation</title>
     
     <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 <link href="../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -54,8 +54,9 @@
     <script src="../../_static/doc_shared.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="act.plotting.GeographicPlotDisplay.put_display_in_subplot" href="act.plotting.GeographicPlotDisplay.put_display_in_subplot.html" />
-    <link rel="prev" title="act.plotting.GeographicPlotDisplay.assign_to_figure_axis" href="act.plotting.GeographicPlotDisplay.assign_to_figure_axis.html" /> 
+    <link rel="next" title="act.plotting.GeographicPlotDisplay.group_by" href="act.plotting.GeographicPlotDisplay.group_by.html" />
+    <link rel="prev" title="act.plotting.GeographicPlotDisplay.assign_to_figure_axis" href="act.plotting.GeographicPlotDisplay.assign_to_figure_axis.html" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en">
     
@@ -69,38 +70,16 @@
                     gtag('js', new Date());
                     gtag('config', 'G-8YN80YZDD8');
                 </script>
- 
+
+
 <link
   rel="alternate"
   type="application/atom+xml"
   href="../../blog/atom.xml"
   title="ACT Blog"
 />
- 
-<style type="text/css">
-  ul.ablog-archive {
-    list-style: none;
-    overflow: auto;
-    margin-left: 0px;
-  }
-  ul.ablog-archive li {
-    float: left;
-    margin-right: 5px;
-    font-size: 80%;
-  }
-  ul.postlist a {
-    font-style: italic;
-  }
-  ul.postlist-style-disc {
-    list-style-type: disc;
-  }
-  ul.postlist-style-none {
-    list-style-type: none;
-  }
-  ul.postlist-style-circle {
-    list-style-type: circle;
-  }
-</style>
+
+
 
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -335,8 +314,8 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="act.io.create_obj_from_arm_dod.html">
-     act.io.create_obj_from_arm_dod
+    <a class="reference internal" href="act.io.create_ds_from_arm_dod.html">
+     act.io.create_ds_from_arm_dod
     </a>
    </li>
    <li class="toctree-l2">
@@ -497,6 +476,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.ContourDisplay.group_by.html">
+       act.plotting.ContourDisplay.group_by
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.ContourDisplay.plot_station.html">
        act.plotting.ContourDisplay.plot_station
       </a>
@@ -539,6 +523,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.Display.group_by.html">
+       act.plotting.Display.group_by
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.Display.put_display_in_subplot.html">
        act.plotting.Display.put_display_in_subplot
       </a>
@@ -576,6 +565,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.GeographicPlotDisplay.group_by.html">
+       act.plotting.GeographicPlotDisplay.group_by
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.GeographicPlotDisplay.put_display_in_subplot.html">
        act.plotting.GeographicPlotDisplay.put_display_in_subplot
       </a>
@@ -605,6 +599,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.HistogramDisplay.assign_to_figure_axis.html">
        act.plotting.HistogramDisplay.assign_to_figure_axis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.HistogramDisplay.group_by.html">
+       act.plotting.HistogramDisplay.group_by
       </a>
      </li>
      <li class="toctree-l3">
@@ -660,6 +659,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.SkewTDisplay.add_stability_info.html">
+       act.plotting.SkewTDisplay.add_stability_info
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.SkewTDisplay.add_subplots.html">
        act.plotting.SkewTDisplay.add_subplots
       </a>
@@ -670,6 +674,16 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.SkewTDisplay.group_by.html">
+       act.plotting.SkewTDisplay.group_by
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.SkewTDisplay.plot_enhanced_skewt.html">
+       act.plotting.SkewTDisplay.plot_enhanced_skewt
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.SkewTDisplay.plot_from_spd_and_dir.html">
        act.plotting.SkewTDisplay.plot_from_spd_and_dir
       </a>
@@ -677,6 +691,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.SkewTDisplay.plot_from_u_and_v.html">
        act.plotting.SkewTDisplay.plot_from_u_and_v
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.SkewTDisplay.plot_hodograph.html">
+       act.plotting.SkewTDisplay.plot_hodograph
       </a>
      </li>
      <li class="toctree-l3">
@@ -729,6 +748,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.TimeSeriesDisplay.fill_between.html">
        act.plotting.TimeSeriesDisplay.fill_between
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.TimeSeriesDisplay.group_by.html">
+       act.plotting.TimeSeriesDisplay.group_by
       </a>
      </li>
      <li class="toctree-l3">
@@ -804,6 +828,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.WindRoseDisplay.group_by.html">
+       act.plotting.WindRoseDisplay.group_by
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.WindRoseDisplay.plot.html">
        act.plotting.WindRoseDisplay.plot
       </a>
@@ -853,6 +882,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="act.plotting.XSectionDisplay.assign_to_figure_axis.html">
        act.plotting.XSectionDisplay.assign_to_figure_axis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="act.plotting.XSectionDisplay.group_by.html">
+       act.plotting.XSectionDisplay.group_by
       </a>
      </li>
      <li class="toctree-l3">
@@ -1245,6 +1279,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="act.utils.adjust_timestamp.html">
+     act.utils.adjust_timestamp
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="act.utils.assign_coordinates.html">
      act.utils.assign_coordinates
     </a>
@@ -1443,7 +1482,8 @@
           <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
               
               <div>
-                 <section id="act-plotting-geographicplotdisplay-geoplot">
+                
+<section id="act-plotting-geographicplotdisplay-geoplot">
 <h1>act.plotting.GeographicPlotDisplay.geoplot<a class="headerlink" href="#act-plotting-geographicplotdisplay-geoplot" title="Permalink to this heading">¶</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="act.plotting.GeographicPlotDisplay.geoplot">
@@ -1455,16 +1495,16 @@ longitude must be in degree east (-180 to 180).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>data_field</strong> (<em>str</em>) – Name of data field in object to plot.</p></li>
-<li><p><strong>lat_field</strong> (<em>str</em>) – Name of latitude field in object to use.</p></li>
-<li><p><strong>lon_field</strong> (<em>str</em>) – Name of longitude field in object to use.</p></li>
+<li><p><strong>data_field</strong> (<em>str</em>) – Name of data field in the dataset to plot.</p></li>
+<li><p><strong>lat_field</strong> (<em>str</em>) – Name of latitude field in the dataset to use.</p></li>
+<li><p><strong>lon_field</strong> (<em>str</em>) – Name of longitude field in the dataset to use.</p></li>
 <li><p><strong>dsname</strong> (<em>str or None</em>) – The name of the datastream to plot. Set to None to make ACT
 attempt to automatically determine this.</p></li>
 <li><p><strong>cbar_label</strong> (<em>str</em>) – Label to use with colorbar. If set to None will attempt
 to create label from long_name and units.</p></li>
 <li><p><strong>title</strong> (<em>str</em>) – Plot title.</p></li>
 <li><p><strong>projection</strong> (<em>cartopy.crs object</em>) – Project to use on plot. See
-<a class="reference external" href="https://scitools.org.uk/cartopy/docs/latest/crs/projections.html">https://scitools.org.uk/cartopy/docs/latest/crs/projections.html</a></p></li>
+<a class="reference external" href="https://scitools.org.uk/cartopy/docs/latest/reference/projections.html?highlight=projections">https://scitools.org.uk/cartopy/docs/latest/reference/projections.html?highlight=projections</a></p></li>
 <li><p><strong>plot_buffer</strong> (<em>float</em>) – Buffer to add around data on plot in lat and lon dimension.</p></li>
 <li><p><strong>stamen</strong> (<em>str</em>) – Dataset to use for background image. Set to None to not use
 background image.</p></li>
@@ -1476,7 +1516,7 @@ more resolution. A value of 8 is typical for a normal sonde plot.</p></li>
 than one set of text to add.</p></li>
 <li><p><strong>gridlines</strong> (<em>boolean</em>) – Use latitude and longitude gridlines.</p></li>
 <li><p><strong>**kwargs</strong> (<em>keyword arguments</em>) – Any other keyword arguments that will be passed
-into <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html#matplotlib.pyplot.scatter" title="(in Matplotlib v3.6.3)"><code class="xref py py-func docutils literal notranslate"><span class="pre">matplotlib.pyplot.scatter()</span></code></a> when the figure
+into <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html#matplotlib.pyplot.scatter" title="(in Matplotlib v3.7.1)"><code class="xref py py-func docutils literal notranslate"><span class="pre">matplotlib.pyplot.scatter()</span></code></a> when the figure
 is made. See the matplotlib documentation for further details
 on what keyword arguments are available.</p></li>
 </ul>
@@ -1486,8 +1526,9 @@ on what keyword arguments are available.</p></li>
 
 </section>
 
-<div class="section">
-   
+<div class="section ablog__blog_comments">
+  
+  
 </div>
 
               </div>
@@ -1502,10 +1543,10 @@ on what keyword arguments are available.</p></li>
             <p class="prev-next-title">act.plotting.GeographicPlotDisplay.assign_to_figure_axis</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="act.plotting.GeographicPlotDisplay.put_display_in_subplot.html" title="next page">
+    <a class='right-next' id="next-link" href="act.plotting.GeographicPlotDisplay.group_by.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">act.plotting.GeographicPlotDisplay.put_display_in_subplot</p>
+        <p class="prev-next-title">act.plotting.GeographicPlotDisplay.group_by</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

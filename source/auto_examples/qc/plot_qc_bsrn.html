@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Plotting Baseline Surface Radiation Network (BSRN) QC Flags &#8212; Atmospheric data Community Toolkit 0.post1+g368a926 documentation</title>
+    <title>Plotting Baseline Surface Radiation Network (BSRN) QC Flags &#8212; Atmospheric data Community Toolkit 0.post1+gddbec03 documentation</title>
     
     <link href="../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 <link href="../../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -55,7 +55,8 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="Working with embedded quality control variables" href="plot_qc_example.html" />
-    <link rel="prev" title="Forcing line plots with 2D data and QC" href="plot_force_line_qc.html" /> 
+    <link rel="prev" title="Forcing line plots with 2D data and QC" href="plot_force_line_qc.html" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en">
     
@@ -69,38 +70,16 @@
                     gtag('js', new Date());
                     gtag('config', 'G-8YN80YZDD8');
                 </script>
- 
+
+
 <link
   rel="alternate"
   type="application/atom+xml"
   href="../../../blog/atom.xml"
   title="ACT Blog"
 />
- 
-<style type="text/css">
-  ul.ablog-archive {
-    list-style: none;
-    overflow: auto;
-    margin-left: 0px;
-  }
-  ul.ablog-archive li {
-    float: left;
-    margin-right: 5px;
-    font-size: 80%;
-  }
-  ul.postlist a {
-    font-style: italic;
-  }
-  ul.postlist-style-disc {
-    list-style-type: disc;
-  }
-  ul.postlist-style-none {
-    list-style-type: none;
-  }
-  ul.postlist-style-circle {
-    list-style-type: circle;
-  }
-</style>
+
+
 
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -267,6 +246,11 @@
      Plot ICARTT Formatted Files
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../io/plot_create_arm_ds.html">
+     Create a dataset to mimic ARM file formats
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
@@ -280,8 +264,28 @@
   </label>
   <ul>
    <li class="toctree-l2">
+    <a class="reference internal" href="../plotting/plot_enhanced_skewt.html">
+     Enhanced plot of a sounding
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../plotting/plot_sonde.html">
+     Plot a timeseries of sounding data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../plotting/plot_hist_kwargs.html">
+     Plot a histogram of Met data.
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="../plotting/plot_rh_timeseries.html">
      Plot winds and relative humidity from sounding data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../plotting/plot_aaf_track.html">
+     Plot ARM AAF Flight Path
     </a>
    </li>
    <li class="toctree-l2">
@@ -305,8 +309,8 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plotting/plot_sonde.html">
-     Plot a timeseries of sounding data
+    <a class="reference internal" href="../plotting/plot_days.html">
+     Calculate and plot wind rose plots separated by day.
     </a>
    </li>
    <li class="toctree-l2">
@@ -315,13 +319,13 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plotting/plot_ceil.html">
-     Simple plot of 2D data
+    <a class="reference internal" href="../plotting/plot_contour.html">
+     Spatial contour plot
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plotting/plot_contour.html">
-     Spatial contour plot
+    <a class="reference internal" href="../plotting/plot_ceil.html">
+     Simple plot of 2D data
     </a>
    </li>
    <li class="toctree-l2">
@@ -335,8 +339,18 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="../plotting/plot_skewt_with_text.html">
+     Skew-T plot of a sounding
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="../plotting/plot_data_rose.html">
      Data rose plot
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../plotting/plot_presentweathercode.html">
+     Plot Present Weather Code
     </a>
    </li>
    <li class="toctree-l2">
@@ -398,6 +412,11 @@
      Retrieve stability indicies from a sounding
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../retrievals/plot_cbh_sobel.html">
+     Cloud Base Height Retrievals
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
@@ -442,6 +461,11 @@
      Calculate and plot weighted means
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../workflows/plot_merged_product.html">
+     Merge multiple datasets
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -482,30 +506,23 @@
           <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
               
               <div>
-                 <div class="sphx-glr-download-link-note admonition note">
+                
+<div class="sphx-glr-download-link-note admonition note">
 <p class="admonition-title">Note</p>
-<p>Click <a class="reference internal" href="#sphx-glr-download-source-auto-examples-qc-plot-qc-bsrn-py"><span class="std std-ref">here</span></a>
+<p><a class="reference internal" href="#sphx-glr-download-source-auto-examples-qc-plot-qc-bsrn-py"><span class="std std-ref">Go to the end</span></a>
 to download the full example code</p>
 </div>
 <section class="sphx-glr-example-title" id="plotting-baseline-surface-radiation-network-bsrn-qc-flags">
 <span id="sphx-glr-source-auto-examples-qc-plot-qc-bsrn-py"></span><h1>Plotting Baseline Surface Radiation Network (BSRN) QC Flags<a class="headerlink" href="#plotting-baseline-surface-radiation-network-bsrn-qc-flags" title="Permalink to this heading">¶</a></h1>
 <p>Simple example for applying BSRN QC and
-plotting the data and the corresponding QC flags.
+plotting the data and the corresponding QC flags
+using colorblind friendly colors.
 <a class="reference external" href="https://bsrn.awi.de/data/quality-checks/">https://bsrn.awi.de/data/quality-checks/</a></p>
 <p>Author: Ken Kehoe</p>
 <ul class="sphx-glr-horizontal">
 <li><img src="../../../_images/sphx_glr_plot_qc_bsrn_001.png" srcset="../../../_images/sphx_glr_plot_qc_bsrn_001.png" alt="sgpbrsC1.b1 down_short_hemisp on 20190705" class = "sphx-glr-multi-img"/></li>
 <li><img src="../../../_images/sphx_glr_plot_qc_bsrn_002.png" srcset="../../../_images/sphx_glr_plot_qc_bsrn_002.png" alt="sgpbrsC1.b1 down_short_hemisp on 20190705" class = "sphx-glr-multi-img"/></li>
 </ul>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/home/runner/work/ACT/ACT/act/utils/datetime_utils.py:132: FutureWarning: Unlike other reduction functions (e.g. `skew`, `kurtosis`), the default behavior of `mode` typically preserves the axis it acts along. In SciPy 1.11.0, this behavior will change: the default value of `keepdims` will become False, the `axis` over which the statistic is taken will be eliminated, and the value None will no longer be accepted. Set `keepdims` to True or False to avoid this warning.
-  mode = stats.mode(np.diff(time))
-/home/runner/work/ACT/ACT/act/utils/datetime_utils.py:132: FutureWarning: Unlike other reduction functions (e.g. `skew`, `kurtosis`), the default behavior of `mode` typically preserves the axis it acts along. In SciPy 1.11.0, this behavior will change: the default value of `keepdims` will become False, the `axis` over which the statistic is taken will be eliminated, and the value None will no longer be accepted. Set `keepdims` to True or False to avoid this warning.
-  mode = stats.mode(np.diff(time))
-</pre></div>
-</div>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 
 <span class="kn">import</span> <span class="nn">act</span>
@@ -518,10 +535,10 @@ plotting the data and the corresponding QC flags.
 <span class="n">display</span> <span class="o">=</span> <span class="n">act</span><span class="o">.</span><span class="n">plotting</span><span class="o">.</span><span class="n">TimeSeriesDisplay</span><span class="p">(</span><span class="n">ds_object</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="n">subplot_shape</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,))</span>
 
 <span class="c1"># Plot radiation data in top plot</span>
-<span class="n">display</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">variable</span></a><span class="p">,</span> <span class="n">subplot_index</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,),</span> <span class="n">day_night_background</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">display</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">variable</span></a><span class="p">,</span> <span class="n">subplot_index</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,),</span> <span class="n">day_night_background</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cb_friendly</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="c1"># Plot ancillary QC data in bottom plot</span>
-<span class="n">display</span><span class="o">.</span><span class="n">qc_flag_block_plot</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">variable</span></a><span class="p">,</span> <span class="n">subplot_index</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,))</span>
+<span class="n">display</span><span class="o">.</span><span class="n">qc_flag_block_plot</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">variable</span></a><span class="p">,</span> <span class="n">subplot_index</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,),</span> <span class="n">cb_friendly</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show" title="matplotlib.pyplot.show" class="sphx-glr-backref-module-matplotlib-pyplot sphx-glr-backref-type-py-function"><span class="n">plt</span><span class="o">.</span><span class="n">show</span></a><span class="p">()</span>
 
 <span class="c1"># Add initial BSRN QC tests to ancillary QC varialbles. Use defualts for</span>
@@ -562,14 +579,15 @@ plotting the data and the corresponding QC flags.
 <span class="n">display</span> <span class="o">=</span> <span class="n">act</span><span class="o">.</span><span class="n">plotting</span><span class="o">.</span><span class="n">TimeSeriesDisplay</span><span class="p">(</span><span class="n">ds_object</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="n">subplot_shape</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,))</span>
 
 <span class="c1"># Plot radiation data in top plot. Add QC information to top plot.</span>
-<span class="n">display</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">variable</span></a><span class="p">,</span> <span class="n">subplot_index</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,),</span> <span class="n">day_night_background</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">assessment_overplot</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">display</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">variable</span></a><span class="p">,</span> <span class="n">subplot_index</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,),</span> <span class="n">day_night_background</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">assessment_overplot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+             <span class="n">cb_friendly</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="c1"># Plot ancillary QC data in bottom plot</span>
-<span class="n">display</span><span class="o">.</span><span class="n">qc_flag_block_plot</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">variable</span></a><span class="p">,</span> <span class="n">subplot_index</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,))</span>
+<span class="n">display</span><span class="o">.</span><span class="n">qc_flag_block_plot</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">variable</span></a><span class="p">,</span> <span class="n">subplot_index</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,),</span> <span class="n">cb_friendly</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show" title="matplotlib.pyplot.show" class="sphx-glr-backref-module-matplotlib-pyplot sphx-glr-backref-type-py-function"><span class="n">plt</span><span class="o">.</span><span class="n">show</span></a><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  1.250 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  1.198 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-source-auto-examples-qc-plot-qc-bsrn-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../../_downloads/1315e013997293e75d40d3edb0d51a3d/plot_qc_bsrn.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_qc_bsrn.py</span></code></a></p>
@@ -581,8 +599,9 @@ plotting the data and the corresponding QC flags.
 <p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
 </section>
 
-<div class="section">
-   
+<div class="section ablog__blog_comments">
+  
+  
 </div>
 
               </div>
