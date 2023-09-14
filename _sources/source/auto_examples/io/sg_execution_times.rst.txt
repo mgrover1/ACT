@@ -6,14 +6,16 @@
 
 Computation times
 =================
-**00:03.840** total execution time for **source_auto_examples_io** files:
+**00:06.324** total execution time for **source_auto_examples_io** files:
 
 +-------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_io_plot_create_arm_ds.py` (``plot_create_arm_ds.py``) | 00:02.150 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_io_plot_create_arm_ds.py` (``plot_create_arm_ds.py``) | 00:02.195 | 0.0 MB |
 +-------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_io_plot_icartt.py` (``plot_icartt.py``)               | 00:00.757 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_io_plot_surfrad.py` (``plot_surfrad.py``)             | 00:02.166 | 0.0 MB |
 +-------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_io_plot_raw_minimpl.py` (``plot_raw_minimpl.py``)     | 00:00.606 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_io_plot_icartt.py` (``plot_icartt.py``)               | 00:00.902 | 0.0 MB |
 +-------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_source_auto_examples_io_plot_sodar.py` (``plot_sodar.py``)                 | 00:00.327 | 0.0 MB |
+| :ref:`sphx_glr_source_auto_examples_io_plot_raw_minimpl.py` (``plot_raw_minimpl.py``)     | 00:00.662 | 0.0 MB |
++-------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_source_auto_examples_io_plot_sodar.py` (``plot_sodar.py``)                 | 00:00.399 | 0.0 MB |
 +-------------------------------------------------------------------------------------------+-----------+--------+
