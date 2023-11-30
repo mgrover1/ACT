@@ -33,8 +33,8 @@ from a sounding.
 
  .. code-block:: none
 
-    lifted_index: 28.4759211060873 units=kelvin
-    surface_based_cape: 0.9631309821880464 units=J/kg
+    lifted_index: 28.475921106085877 units=kelvin
+    surface_based_cape: 0.9631309821884662 units=J/kg
     surface_based_cin: 0 units=J/kg
     most_unstable_cape: 0 units=J/kg
     most_unstable_cin: 0 units=J/kg
@@ -49,7 +49,7 @@ from a sounding.
 
 |
 
-.. code-block:: default
+.. code-block:: Python
 
 
     import warnings
@@ -65,7 +65,7 @@ from a sounding.
         print()
 
 
-    sonde_ds = act.io.armfiles.read_netcdf(act.tests.sample_files.EXAMPLE_SONDE1)
+    sonde_ds = act.io.arm.read_arm_netcdf(act.tests.sample_files.EXAMPLE_SONDE1)
 
     sonde_ds = act.retrievals.calculate_stability_indicies(
         sonde_ds, temp_name='tdry', td_name='dp', p_name='pres'
@@ -86,7 +86,7 @@ from a sounding.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 0.180 seconds)
+   **Total running time of the script:** (0 minutes 0.135 seconds)
 
 
 .. _sphx_glr_download_source_auto_examples_retrievals_plot_get_stability_indices_example.py:
@@ -95,16 +95,13 @@ from a sounding.
 
   .. container:: sphx-glr-footer sphx-glr-footer-example
 
+    .. container:: sphx-glr-download sphx-glr-download-jupyter
 
-
+      :download:`Download Jupyter notebook: plot_get_stability_indices_example.ipynb <plot_get_stability_indices_example.ipynb>`
 
     .. container:: sphx-glr-download sphx-glr-download-python
 
       :download:`Download Python source code: plot_get_stability_indices_example.py <plot_get_stability_indices_example.py>`
-
-    .. container:: sphx-glr-download sphx-glr-download-jupyter
-
-      :download:`Download Jupyter notebook: plot_get_stability_indices_example.ipynb <plot_get_stability_indices_example.ipynb>`
 
 
 .. only:: html
